@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B78FA04D26B8D2AC00639EA3 /* blackjack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B78FA04B26B8D2AC00639EA3 /* blackjack.cpp */; };
 		B7EF154C269ABF6700D518C4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B7EF154B269ABF6700D518C4 /* main.cpp */; };
-		B7EF155C269AC66700D518C4 /* games.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B7EF155A269AC66700D518C4 /* games.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,10 +24,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B78FA04B26B8D2AC00639EA3 /* blackjack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = blackjack.cpp; sourceTree = "<group>"; };
+		B78FA04C26B8D2AC00639EA3 /* blackjack.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = blackjack.hpp; sourceTree = "<group>"; };
 		B7EF1548269ABF6700D518C4 /* CasinoGames */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CasinoGames; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7EF154B269ABF6700D518C4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		B7EF155A269AC66700D518C4 /* games.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = games.cpp; sourceTree = "<group>"; };
-		B7EF155B269AC66700D518C4 /* games.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = games.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +60,9 @@
 		B7EF154A269ABF6700D518C4 /* CasinoGames */ = {
 			isa = PBXGroup;
 			children = (
+				B78FA04B26B8D2AC00639EA3 /* blackjack.cpp */,
+				B78FA04C26B8D2AC00639EA3 /* blackjack.hpp */,
 				B7EF154B269ABF6700D518C4 /* main.cpp */,
-				B7EF155A269AC66700D518C4 /* games.cpp */,
-				B7EF155B269AC66700D518C4 /* games.hpp */,
 			);
 			path = CasinoGames;
 			sourceTree = "<group>";
@@ -123,7 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7EF155C269AC66700D518C4 /* games.cpp in Sources */,
+				B78FA04D26B8D2AC00639EA3 /* blackjack.cpp in Sources */,
 				B7EF154C269ABF6700D518C4 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
