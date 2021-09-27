@@ -5,6 +5,13 @@
 //  Created by Maksim Sharoika on 2021-07-11.
 //
 
+// include the std libraries
+#include <stdio.h>
+#include <stdlib.h>
+#include <iostream>
+
+using namespace std;
+
 // including the header file
 #include "blackjack.hpp"
 

@@ -8,12 +8,6 @@
 #ifndef blackjack_hpp
 #define blackjack_hpp
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <iostream>
-
-using namespace std;
-
 // casino functions
 int get_input(int, int);
 void spacer();
